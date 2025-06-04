@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+.App {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.column {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1 0 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-card {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.task-button {
+  padding: 5px 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-button:hover {
+  background: #0056b3;
+}
